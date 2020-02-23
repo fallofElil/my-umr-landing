@@ -3,5 +3,22 @@ body {
 }
 
 .site-header {
+    position: relative;
     height: 560px;
+    background-image: url('/img/mock-city_crop.jpg');
+    background-position: top;
+}
+
+.site-header::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(39, 58, 67, .4);
+}
+
+.main-feature {
+    width: 320px;
 }
