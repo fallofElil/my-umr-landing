@@ -1,18 +1,18 @@
 @font-face {
     font-family: 'Open Sans';
     src: 
-        url('/fonts/OpenSans-Regular.ttf') format('ttf'),
-        url('/fonts/OpenSans-Regular.woff') format('woff'),
-        url('/fonts/OpenSans-Regular.woff2') format('woff2');
+        url('../fonts/OpenSans-Regular.ttf') format('ttf'),
+        url('../fonts/OpenSans-Regular.woff') format('woff'),
+        url('../fonts/OpenSans-Regular.woff2') format('woff2');
     font-weight: 400;
 }
 
 @font-face {
     font-family: 'Pacifico';
     src:
-        url('./fonts/Pacifico-Regular.ttf') format('ttf'),
-        url('./fonts/Pacifico-Regular.woff') format('woff'),
-        url('./fonts/Pacifico-Regular.woff2') format('woff2');
+        url('../fonts/Pacifico-Regular.ttf') format('ttf'),
+        url('../fonts/Pacifico-Regular.woff') format('woff'),
+        url('../fonts/Pacifico-Regular.woff2') format('woff2');
     font-weight: 400;
 }
 
@@ -29,7 +29,7 @@ body {
     position: relative;
     height: 560px;
     margin-bottom: 75px;
-    background-image: url('./img/mock-city_crop.jpg');
+    background-image: url('../img/mock-city_crop.jpg');
     background-position: top;
 }
 
