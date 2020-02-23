@@ -10,12 +10,12 @@
 <body>
     <header class="site-header container-fluid">
         <div class="header-wrapper container-xl">
-            <nav class="header-nav nav">
-                <h1 class="site-logo">Мой ЮМР</h1>
-                <ul class="header_menu-list nav justify-content-end">
-                    <li class="header_menu-item nav-item"><a href="#" class="nav-link">Главная</a></li>
-                    <li class="header_menu-item nav-item"><a href="#" class="nav-link">Новости</a></li>
-                    <li class="header_menu-item nav-item"><a href="#" class="nav-link">Карта</a></li>
+            <nav class="header-nav navbar navbar-expand-sm navbar-dark">
+                <a href="#" class="navbar-brand"><h1 class="site-logo">Мой ЮМР</h1></a>
+                <ul class="header_menu-list navbar-nav">
+                    <li class="header_menu-item navbar-item"><a href="#" class="nav-link">Главная</a></li>
+                    <li class="header_menu-item navbar-item"><a href="#" class="nav-link">Новости</a></li>
+                    <li class="header_menu-item navbar-item"><a href="#" class="nav-link">Карта</a></li>
                 </ul>
             </nav>
         </div>
@@ -23,7 +23,7 @@
     <main>
         <div class="container-xl">
             <section class="main-sect">
-                <p class="mid-txt">Какой-то крупный тектс для описания.</p>
+                <p class="mid-txt main-txt">Какой-то крупный тектс для описания.</p>
                 <div class="row">
                     <div class="col">
                         <article class="main-feature card">
@@ -34,13 +34,25 @@
                             </div>
                         </article>
                     </div>
+
                     <div class="col">
-                        <article class="main-feature"></article>
+                        <article class="main-feature card">
+                            <img src="img/green_zone.jpg" alt="аллея" width="320">
+                            <div class="card-body">
+                                <h5 class="card-title">Зелёные зоны отдыха</h5>
+                                <p class="card-text">Платановый бульвар одно из самых приятных мест для прогулок и бесед.</p>
+                            </div>
+                        </article>
                     </div>
                     <div class="col">
-                        <article class="main-feature"></article>
+                        <article class="main-feature card">
+                            <img src="img/infrastructure.webp" alt="транспорт" width="320">
+                            <div class="card-body">
+                                <h5 class="card-title">Развитая инфраструктура</h5>
+                                <p class="card-text">За долгие годы микрорайон развил транспортную и муниципальную инфарструктуры.</p>
+                            </div>
+                        </article>
                     </div>
-                </div>
             </section>
         </div>
     </main>
