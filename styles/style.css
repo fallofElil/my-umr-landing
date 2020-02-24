@@ -8,6 +8,33 @@
 }
 
 @font-face {
+    font-family: 'Open Sans';
+    src: 
+        url('../fonts/OpenSans-SemiBold.ttf') format('ttf'),
+        url('../fonts/OpenSans-SemiBold.woff') format('woff'),
+        url('../fonts/OpenSans-SemiBold.woff2') format('woff2');
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: 
+        url('../fonts/OpenSans-Bold.ttf') format('ttf'),
+        url('../fonts/OpenSans-Bold.woff') format('woff'),
+        url('../fonts/OpenSans-Bold.woff2') format('woff2');
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: 
+        url('../fonts/OpenSans-ExtraBold.ttf.ttf') format('ttf'),
+        url('../fonts/OpenSans-ExtraBold.woff') format('woff'),
+        url('../fonts/OpenSans-ExtraBold.woff2') format('woff2');
+    font-weight: 800;
+}
+
+@font-face {
     font-family: 'Pacifico';
     src:
         url('../fonts/Pacifico-Regular.ttf') format('ttf'),
@@ -23,6 +50,16 @@ html {
 body {
     margin: 0;
     font-family: 'Open Sans', 'Arial', sans-serif;
+}
+
+h1, 
+h2 {
+    font-family: 'Open Sans', 'Arial', sans-serif;
+    font-weight: 700;
+}
+
+p {
+    margin: 0;
 }
 
 .site-header {
@@ -76,15 +113,71 @@ body {
     font-size: 1.2rem;
 }
 
+.main-top {
+    margin-bottom: 85px;
+}
+
 .mid-txt {
     font-size: 1.2rem;
 }
 
-.main-txt {
+.top-txt {
     margin-bottom: 50px;
     text-align: center;
 }
 
 .main-feature {
     width: 320px;
+}
+
+.main-row {
+    padding-top: 35px;
+    margin-bottom: 50px;
+    border-top: 1px solid #e1e1e1;
+}
+
+.main-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-content img {
+    margin-right: 55px;
+}
+
+.main-row_title {
+    margin-bottom: 40px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.title-regular {
+    font-weight: 400;
+}
+
+.main-content_txt {
+    font-size: 13.5px;
+    line-height: 20px;
+    color: #7c7770;
+}
+
+.main-content_subtitle {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.site-footer {
+    color: #c3c3c3;
+}
+.site-footer_top {
+    background-color: #273a43;
+}
+.site-footer_bot {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #172227;
+}
+
+.site-footer_social {
+    text-align: right;
 }

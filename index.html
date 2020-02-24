@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,11 +8,14 @@
     <link rel="stylesheet" href="styles/bootstrap.min.css">
     <link rel="stylesheet" href="styles/style.css">
 </head>
+
 <body>
     <header class="site-header container-fluid">
         <div class="header-wrapper container-xl">
             <nav class="header-nav navbar navbar-expand-sm navbar-dark">
-                <a href="#" class="navbar-brand"><h1 class="site-logo">Мой ЮМР</h1></a>
+                <a href="#" class="navbar-brand">
+                    <h1 class="site-logo">Мой ЮМР</h1>
+                </a>
                 <ul class="header_menu-list navbar-nav">
                     <li class="header_menu-item navbar-item"><a href="#" class="nav-link">Главная</a></li>
                     <li class="header_menu-item navbar-item"><a href="#" class="nav-link">Новости</a></li>
@@ -22,15 +26,16 @@
     </header>
     <main>
         <div class="container-xl">
-            <section class="main-sect">
-                <p class="mid-txt main-txt">Какой-то крупный тектс для описания.</p>
+            <section class="main-top">
+                <p class="mid-txt top-txt">Какой-то крупный тектс для описания.</p>
                 <div class="row">
                     <div class="col">
                         <article class="main-feature card">
                             <img src="img/art.jpg" alt="искусство" width="320">
                             <div class="card-body">
                                 <h5 class="card-title">Арт объекты</h5>
-                                <p class="card-text">На территории микрорайона находятмя разнообразные арт проекты, которые не оставят Вас равношным.</p>
+                                <p class="card-text">На территории микрорайона находятмя разнообразные арт проекты,
+                                    которые не оставят Вас равношным.</p>
                             </div>
                         </article>
                     </div>
@@ -40,7 +45,8 @@
                             <img src="img/green_zone.jpg" alt="аллея" width="320">
                             <div class="card-body">
                                 <h5 class="card-title">Зелёные зоны отдыха</h5>
-                                <p class="card-text">Платановый бульвар одно из самых приятных мест для прогулок и бесед.</p>
+                                <p class="card-text">Платановый бульвар одно из самых приятных мест для прогулок и
+                                    бесед.</p>
                             </div>
                         </article>
                     </div>
@@ -49,12 +55,48 @@
                             <img src="img/infrastructure.webp" alt="транспорт" width="320">
                             <div class="card-body">
                                 <h5 class="card-title">Развитая инфраструктура</h5>
-                                <p class="card-text">За долгие годы микрорайон развил транспортную и муниципальную инфарструктуры.</p>
+                                <p class="card-text">За долгие годы микрорайон развил транспортную и муниципальную
+                                    инфарструктуры.</p>
                             </div>
                         </article>
                     </div>
             </section>
+            <section class="main-row">
+                <h2 class="main-row_title"><span class="title-regular">Что</span> особенного?</h2>
+                <div class="main-content">
+                    <img src="img/asphalt_mock.jpg" alt="асфальт" width="280" height="200">
+                    <div class="txt-block">
+                        <h3 class="main-content_subtitle">Тут должно быть ключевое слово.</h3>
+                        <p class="mid-txt main-content_txt">Сайт рыбатекст поможет дизайнеру, верстальщику,
+                            вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы
+                            на русском языке, а начинающему оратору отточить навык публичных выступлений в
+                            домашних условиях. При создании генератора мы использовали небезизвестный
+                            универсальный код речей. Текст генерируется абзацами случайным образом от двух
+                            до десяти предложений в абзаце, что позволяет сделать текст более привлекательным
+                            и живым для визуально-слухового восприятия.</p>
+                    </div>
+                </div>
+            </section>
         </div>
     </main>
+    <footer class="site-footer container-fluid">
+        <section class="site-footer_top row">
+            <div class="container-xl"></div>
+        </section>
+        <section class="site-footer_bot row">
+            <div class="container-xl">
+                <div class="row">
+                    <div class="col">
+                        <p class="site-footer_copy">&copy; 2020 Учебный проект.</p>
+                    </div>
+                    <div class="col">
+                        <p class="site-footer_social">VK, FB, INST</p>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+    </footer>
 </body>
+
 </html>
