@@ -231,3 +231,13 @@ p {
 .site-footer_social {
   text-align: right;
 }
+
+#map {
+  width: 100%;
+  height: 490px;
+  margin-bottom: 60px;
+}
+
+.form-row {
+  margin-bottom: 0.8em;
+}

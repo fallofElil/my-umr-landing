@@ -7,23 +7,71 @@
     <title>Мой ЮМР</title>
     <link rel="stylesheet" href="styles/bootstrap.min.css">
     <link rel="stylesheet" href="styles/style.css">
+    <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU&amp;apikey=d82e4203-9dd8-4887-b598-174fad0ecdf4" type="text/javascript"></script>
+    <script src="js/map.js"></script>
 </head>
 
 <body>
-    <header class="site-header container-fluid">
+    <header class="site-header container-fluid" style="height: 360px;">
         <div class="header-wrapper container-xl">
             <nav class="header-nav navbar navbar-expand-sm navbar-dark">
                 <a href="#" class="navbar-brand">
                     <h1 class="site-logo">Мой ЮМР</h1>
                 </a>
                 <ul class="header_menu-list navbar-nav">
-                    <li class="header_menu-item navbar-item"><a href="#" class="nav-link">Главная</a></li>
+                    <li class="header_menu-item navbar-item"><a href="index.html" class="nav-link">Главная</a></li>
                     <li class="header_menu-item navbar-item"><a href="#" class="nav-link">Новости</a></li>
                     <li class="header_menu-item navbar-item"><a href="#" class="nav-link">Карта</a></li>
                 </ul>
             </nav>
         </div>
     </header>
-    <main>
+    <main style="margin-top: -75px;">
+        <div id="map"></div>
+        <div class="container-xl">
+            <section class="main-row">
+                <h2 class="main-row_title"><span class="title-regular">Свяжитесь</span> с нами</h2>
+                <div class="container-md">
+                    <div class="row">
+                        <div class="col">
+                            <form class="d-flex flex-column justify-content-center" action="send">
+                                <div class="form-row">
+                                    <div class="col">
+                                        <input type="text" class="form-control" placeholder="Ваше имя">
+                                    </div>
+                                    <div class="col">
+                                        <input type="email" class="form-control" placeholder="Ваш email">
+                                    </div>
+                                </div>
+                                <div class="form-row">
+                                    <div class="col">
+                                        <textarea class="form-control" id="msgTxtArea" rows="3" placeholder="Ваше сообщение"></textarea>
+                                    </div>
+                                </div>
+                                <button type="submit" class="btn btn-primary mb-2 align-self-center">Отправить сообщение</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
     </main>
+    <footer class="site-footer container-fluid">
+        <section class="site-footer_top row">
+            <div class="container-xl"></div>
+        </section>
+        <section class="site-footer_bot row">
+            <div class="container-xl">
+                <div class="row">
+                    <div class="col">
+                        <p class="site-footer_copy">&copy; 2020 Учебный проект.</p>
+                    </div>
+                    <div class="col">
+                        <p class="site-footer_social">VK, FB, INST</p>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+    </footer>
 </body>
