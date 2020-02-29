@@ -56,8 +56,7 @@ p {
   position: relative;
   height: 560px;
   margin-bottom: 75px;
-  background-image: url("../img/mock-city_crop.jpg");
-  background-position: top;
+  background-color: #081c22;
 }
 
 .site-header::after {
@@ -73,6 +72,7 @@ p {
 .header-wrapper {
   position: relative;
   padding-top: 30px;
+  margin-bottom: -113px;
   z-index: 1;
 }
 
@@ -101,6 +101,11 @@ p {
 
 .header_menu-item a {
   font-size: 1.2rem;
+}
+
+.img-slide {
+  position: relative;
+  margin: 0 auto;
 }
 
 .main-top {
@@ -232,7 +237,7 @@ p {
   text-align: right;
 }
 
-#map {
+#idMap {
   width: 100%;
   height: 490px;
   margin-bottom: 60px;
