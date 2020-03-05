@@ -19,8 +19,7 @@
     <title>Мой ЮМР</title>
     <link rel="stylesheet" href="styles/bootstrap.min.css">
     <link rel="stylesheet" href="styles/style.css">
-
-<?php wp_head(); ?>
+    <?php wp_head(); ?>
 </head>
 
 <body>
